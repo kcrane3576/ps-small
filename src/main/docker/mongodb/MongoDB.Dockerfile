@@ -1,2 +1,2 @@
-FROM mongo:3.4.8
+FROM mongo:3.4.8@sha256:100997a571c8d4c478e77b504f82e74ee14ac0d5f172361cfea7c81b7d776f23
 ADD mongodb/scripts/init_replicaset.js init_replicaset.js
